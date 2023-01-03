@@ -1,0 +1,42 @@
+package logicalPrograms;
+
+import java.util.HashMap;
+import java.util.Set;
+
+public class HashmapStudy {
+
+	public static void main(String[] args) 
+	{
+		
+		//calculating duplicate characters count in string
+		
+		String a="abcfffssggghhhhrrrrere";
+		
+		HashMap<Character,Integer> mp=new HashMap<Character, Integer>();
+		
+		for(int i=0;i<=a.length()-1;i++)
+		{
+			char t = a.charAt(i);
+			
+			if(mp.containsKey(t))
+			{
+				mp.put(t, mp.get(t)+1);
+			}
+			else
+			{
+				mp.put(t,1);
+			}
+			
+		}
+		System.out.println(mp);
+		
+		Set<Character> b = mp.keySet();
+		
+		for(Character b1:b)
+		{
+			System.out.println(b1+mp.get(b1));
+		}
+		
+	}
+
+}

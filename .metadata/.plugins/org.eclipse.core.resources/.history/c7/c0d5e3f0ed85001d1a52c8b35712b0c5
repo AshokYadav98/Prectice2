@@ -1,0 +1,29 @@
+package HashmapStudy;
+
+import java.util.HashMap;
+
+public class Exa1 {
+
+	public static void main(String[] args) 
+	{
+		
+		
+		
+		HashMap<String, Integer> map=new HashMap<String, Integer>();
+		
+		map.put("Ashok", 24);
+		
+		map.put("Ganesh ", 29);
+		
+		map.put("Sarika", 30);
+		
+		map.put("Dipali", 32);
+		
+		map.put("Priyanka", 27);
+		
+		System.out.println(map+"age");
+		
+
+	}
+
+}
