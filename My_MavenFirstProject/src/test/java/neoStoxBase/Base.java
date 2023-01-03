@@ -19,6 +19,11 @@ public class Base
 		driver.get("https://neostox.com/");
 		
 		Reporter.log("Launching the browser ", true);
+	
+		
+		
+		
+		
 		
 	}
 
