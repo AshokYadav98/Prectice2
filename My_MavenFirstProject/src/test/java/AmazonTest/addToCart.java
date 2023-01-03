@@ -20,6 +20,9 @@ import neoStoxUtilityMaven.UtilityPropertyAmazon;
 @Listeners(listener.ListenerAmazon.class)
 public class addToCart extends BaseForAmazon
 {
+	
+	
+	
 	HomePage home;
 	ResultPage Result;
 	ProductDetails prod;
